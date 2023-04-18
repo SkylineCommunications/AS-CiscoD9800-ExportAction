@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{96EEF362-37E1-46BC-8877-44DBAD46D3B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{6480AE0F-AA23-4588-B970-9FD521135CC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{83D51E4E-6A6D-48CC-B79F-A56909543B5F}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\AboutThisFolder.md = Dlls\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{6C94531C-9F61-48B7-B2F4-12A26EF672CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{C3434D41-5FC3-4CCD-8C9C-DC7E0479A721}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{4AA8B761-418C-4C67-84EB-F0C8664ACF66}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\AboutThisFolder.md = Documentation\AboutThisFolder.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{21F19936-563D-43EC-9AD3-751E662B9539}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CISCO D9800 Export Action", "CISCO D9800 Export Action", "{511DF28E-9DD7-4990-BA65-0520E72B2F57}"
+	ProjectSection(SolutionItems) = preProject
+		CISCO D9800 Export Action.xml = CISCO D9800 Export Action.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{35FD5F7B-CF02-493E-A5D6-EF771D1117E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CISCO D9800 Export Action_1", "CISCO D9800 Export Action_1\CISCO D9800 Export Action_1.csproj", "{12CE5E85-D345-4FF2-A0B5-23B115F180EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12CE5E85-D345-4FF2-A0B5-23B115F180EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12CE5E85-D345-4FF2-A0B5-23B115F180EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12CE5E85-D345-4FF2-A0B5-23B115F180EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12CE5E85-D345-4FF2-A0B5-23B115F180EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C3434D41-5FC3-4CCD-8C9C-DC7E0479A721} = {6C94531C-9F61-48B7-B2F4-12A26EF672CE}
+		{21F19936-563D-43EC-9AD3-751E662B9539} = {96EEF362-37E1-46BC-8877-44DBAD46D3B0}
+		{511DF28E-9DD7-4990-BA65-0520E72B2F57} = {6480AE0F-AA23-4588-B970-9FD521135CC8}
+		{35FD5F7B-CF02-493E-A5D6-EF771D1117E7} = {511DF28E-9DD7-4990-BA65-0520E72B2F57}
+		{12CE5E85-D345-4FF2-A0B5-23B115F180EB} = {35FD5F7B-CF02-493E-A5D6-EF771D1117E7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40B77842-C56D-4A79-B5A0-D9978F756944}
+	EndGlobalSection
+EndGlobal
